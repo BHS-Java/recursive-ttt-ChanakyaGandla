@@ -8,8 +8,9 @@ public class Main {
     ttt.placeCharOnIndex('x', 0, 0);
     ttt.placeCharOnIndex('x', 1, 1);
     ttt.placeCharOnIndex('x', 2, 2);
-    ttt.placeCharOnIndex('x', 2, 0);
-    ttt.placeCharOnIndex('x', 0, 2);
+
+    //ttt.placeCharOnIndex('x', 2, 0);
+   // ttt.placeCharOnIndex('x', 0, 2);
     
     ttt.printMap(0,0);
 

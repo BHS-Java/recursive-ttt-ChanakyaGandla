@@ -2,6 +2,8 @@ public class TicTacToe {
   private char[][] board;
   private char currentPlayer;
 
+  private Scanner scan 
+
   public TicTacToe() {
       board = new char[3][3];
       currentPlayer = 'X';
@@ -46,7 +48,7 @@ public class TicTacToe {
   public boolean checkWin(char player) {
     // only checks diagonals at the moment, update for other checks later.
     return checkLine(0, 0, new int[] {1, 1}, player) 
-    && checkLine(0, 2, new int[] {-1, 1}, player);
+    || checkLine(0, 2, new int[] {-1, 1}, player);
   }
 
   // slope[0] is x increment, slope[1] is y increment
